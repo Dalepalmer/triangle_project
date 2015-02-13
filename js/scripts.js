@@ -17,15 +17,15 @@
   };
 
 
-$(document).ready(function() {
-  $("form#triangle").submit(function(event) {
-    var side1 = parseFloat($("input#side1").val());
-    var side2 = parseFloat($("input#side2").val());
-    var side3 = parseFloat($("input#side3").val());
-    var result = triangle(side1, side2, side3);
+  $(document).ready(function() {
+    $("form#triangle").submit(function(event) {
+      var side1 = parseFloat($("input#side1").val());
+      var side2 = parseFloat($("input#side2").val());
+      var side3 = parseFloat($("input#side3").val());
+      var result = triangle(side1, side2, side3);
 
-    $(".triangleResult").text(result);
-    $("#result").show();
-    event.preventDefault();
+      $(".triangleResult").text(result);
+      $("#result").show();
+      event.preventDefault();
+    });
   });
-});

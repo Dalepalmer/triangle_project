@@ -1,3 +1,7 @@
 body {
   background-image: url("1390455030_triangles_abstract_wallpaper.png") ;
 }
+
+.jumbotron {
+     background: rgba(150, 104, 54, 0.5);
+}
