@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css'>
-    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="css/triangle.css" rel="stylesheet" type="text/css">
     <script src="js/jquery-1.11.2.js"></script>
     <script src="js/scripts.js"></script>
     <title>Dale's D.A.C.T.E</title>
@@ -11,21 +11,25 @@
     <div class="container">
       <h1>Dale's Downright Always Correct Triangle Evaluater</h1>
 
-      <form id="Triangle">
+      <form id="triangle">
         <div class="form-group">
-          <label for="side1">Enter a year and find out if it's a leap year:</label>
+          <label for="side1">Enter side one of a triangle in centimeters:</label>
           <input id="side1" type="float">
-          <label for="side2">Enter a year and find out if it's a leap year:</label>
+          <br>
+          <br>
+          <label for="side2">Enter side two of a triangle in centimeters:</label>
           <input id="side2" type="float">
-          <label for="side3">Enter a year and find out if it's a leap year:</label>
+          <br>
+          <br>
+          <label for="side3">Enter side three of a triangle in centimeters:</label>
           <input id="side3" type="float">
         </div>
 
-        <button type="submit" class="btn">Find out!</button>
+        <button type="submit" class="btn btn-success">Find out!</button>
       </form>
 
       <div id="result">
-        <p><span class="year"></span> is <span class="not"></span> a leap year.</p>
+        <p><span class="triangle"></span><span class="not"></span></p>
       </div>
     </div>
   </body>
